@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stone Paper Sci.</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 class="title">Stone Paper Scissor Game</h1>
+    
+    <button type="button" class="play-game" onclick="hideStep1()"><h1>Play Game!</h1></button>
+
+    <form class="form1 hide">
+        <h1 class="name-title">Enter Your Name: </h1>
+        
+        <input class="name-entry" type="text">
+
+        <button type="button" class="go" onclick="hidestep2()">Go!</button>
+    </form>
+
+    <h1 class="title1"></h1>
+
+    <div class="sections hide" style="width: 100%;">
+        <div class="left" style="height: 500px; margin-top: 20px;">
+            <h1 class="playerHolder" style="color: black;"></h1>
+            <br>
+            <h1 style="color: black;" class="myScore">My Score: 0</h1>
+            <br>
+            <br>
+            <h2 style="color: black;">Select your choice</h2>
+            
+            <button class="btn btn1"  onclick="Stone()">Stone</button><br><br>
+            <button class="btn btn1" onclick="Paper()">Paper</button><br><br> 
+            <button class="btn btn1"  onclick="Scissors()" >Scissor</button><br>            
+            
+
+
+        </div>
+
+        
+        <div class="right" style="height: 500px; margin-top: 20px;">
+            <h1 style="color: black;">Computer</h1>
+
+
+            <br>
+            <h1 style="color: black;" class="cpuScore">Computer's Score: 0</h1>
+            <br>              
+            <h1 style="color: black;" class="cpu"></h2>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
